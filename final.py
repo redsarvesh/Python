@@ -25,7 +25,7 @@ if flag==1:
 	print "<META HTTP-EQUIV='refresh' content='0; url=http://192.168.122.1/final_sec.html'>"
 
 elif flag==0:
-	print "<script>alert('Wrong Password')</script>" 
+	print "check your name or password again" 
 	print "<META HTTP-EQUIV='refresh' content='0; url=http://192.168.122.1/final.html'/>"	
 
 
