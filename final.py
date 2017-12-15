@@ -13,12 +13,12 @@ passwd=x.getvalue('pwd')
 sql="""select name,password from info"""
 cursor.execute(sql)
 flag=0;
-for name, password in cursor:
+for name,password in cursor:
 	if  nm == name and passwd == password:
 		flag=1;
 		break;
 	
-	elif name!=name or passwd!=password:
+	elif nm!=name or passwd!=password:
 		flag=0;
 
 if flag==1:
